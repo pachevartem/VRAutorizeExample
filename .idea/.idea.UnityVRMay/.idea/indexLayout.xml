@@ -7,12 +7,15 @@
       <Path>Library/PackageCache/com.unity.analytics@3.2.3</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.15</Path>
       <Path>Library/PackageCache/com.unity.package-manager-ui@2.0.8</Path>
+      <Path>Library/PackageCache/com.unity.probuilder@4.2.3</Path>
       <Path>Library/PackageCache/com.unity.purchasing@2.0.3</Path>
+      <Path>Library/PackageCache/com.unity.settings-manager@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@1.4.1</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
