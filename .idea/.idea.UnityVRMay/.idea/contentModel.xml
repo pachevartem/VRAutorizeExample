@@ -175,6 +175,9 @@
           <e p="ButtonFloor.cs" t="Include" />
           <e p="Door.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="Key.cs" t="Include" />
+          <e p="KeyManager.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="Cameras" t="Include">
