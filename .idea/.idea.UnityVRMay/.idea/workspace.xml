@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="260c7e46-683f-4a6c-b471-8b89baaec4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CubeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CubeController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Doors.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Doors.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefabVariant_01 Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefabVariant_01 Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/pregrada.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/pregrada.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleConstructor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleConstructor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SciFi Gun/Components/SciFiGun_Specular.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SciFi Gun/Components/SciFiGun_Specular.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/Skelet.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/Skelet.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/animation/UD_infantry_07_attack_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/animation/UD_infantry_07_attack_A.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +44,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RequestController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -35,11 +61,15 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/RequestController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Door.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Key.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CubeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" />
       </list>
     </option>
   </component>
@@ -70,10 +100,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="24344">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="24344" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -88,7 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589277900200</updated>
       <workItem from="1589277901645" duration="1837000" />
-      <workItem from="1589359777807" duration="8219000" />
+      <workItem from="1589359777807" duration="8890000" />
+      <workItem from="1589443982169" duration="8883000" />
     </task>
     <servers />
   </component>
@@ -102,44 +133,78 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="400" key="GridCell.Tab.0.bottom" timestamp="1589368715931">
+    <state width="1877" height="28" key="GridCell.Tab.0.bottom" timestamp="1589370697697">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368715931" />
-    <state width="1877" height="400" key="GridCell.Tab.0.center" timestamp="1589368715931">
+    <state width="1877" height="28" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.0.center" timestamp="1589370697697">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368715931" />
-    <state width="1877" height="400" key="GridCell.Tab.0.left" timestamp="1589368715931">
+    <state width="1877" height="28" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.0.left" timestamp="1589370697696">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368715931" />
-    <state width="1877" height="400" key="GridCell.Tab.0.right" timestamp="1589368715931">
+    <state width="1877" height="28" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697696" />
+    <state width="1877" height="28" key="GridCell.Tab.0.right" timestamp="1589370697697">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368715931" />
-    <state width="1877" height="400" key="GridCell.Tab.1.bottom" timestamp="1589368719523">
+    <state width="1877" height="28" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.1.bottom" timestamp="1589370697697">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368719523" />
-    <state width="1877" height="400" key="GridCell.Tab.1.center" timestamp="1589368719523">
+    <state width="1877" height="28" key="GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.1.center" timestamp="1589370697697">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368719523" />
-    <state width="1877" height="400" key="GridCell.Tab.1.left" timestamp="1589368719523">
+    <state width="1877" height="28" key="GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.1.left" timestamp="1589370697697">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368719523" />
-    <state width="1877" height="400" key="GridCell.Tab.1.right" timestamp="1589368719523">
+    <state width="1877" height="28" key="GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.1.right" timestamp="1589370697697">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589368719523" />
+    <state width="1877" height="28" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.2.bottom" timestamp="1589370697698">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.2.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697698" />
+    <state width="1877" height="28" key="GridCell.Tab.2.center" timestamp="1589370697698">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.2.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697698" />
+    <state width="1877" height="28" key="GridCell.Tab.2.left" timestamp="1589370697697">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.2.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697697" />
+    <state width="1877" height="28" key="GridCell.Tab.2.right" timestamp="1589370697698">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.2.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697698" />
+    <state width="1877" height="28" key="GridCell.Tab.3.bottom" timestamp="1589370697698">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.3.bottom/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697698" />
+    <state width="1877" height="28" key="GridCell.Tab.3.center" timestamp="1589370697698">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.3.center/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697698" />
+    <state width="1877" height="28" key="GridCell.Tab.3.left" timestamp="1589370697698">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.3.left/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697698" />
+    <state width="1877" height="28" key="GridCell.Tab.3.right" timestamp="1589370697698">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="28" key="GridCell.Tab.3.right/0.0.1920.1170/1920.0.1920.1050@0.0.1920.1170" timestamp="1589370697698" />
   </component>
 </project>

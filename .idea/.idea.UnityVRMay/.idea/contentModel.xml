@@ -172,9 +172,13 @@
         </e>
         <e p="RequestController.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Bullet.cs" t="Include" />
           <e p="ButtonFloor.cs" t="Include" />
+          <e p="CubeController.cs" t="Include" />
           <e p="Door.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="Gun.cs" t="Include" />
           <e p="Key.cs" t="Include" />
           <e p="KeyManager.cs" t="Include" />
           <e p="MusicManager.cs" t="Include" />

@@ -9,12 +9,13 @@ namespace VRGame
     [RequireComponent(typeof(Animator))]
     public class ButtonFloor : MonoBehaviour
     {
+        public bool isDrawGizmo;
         public Door door;
 
         // public UnityEvent ButtonPress;
 
-        [Range(1, 10)] 
-        public float DistanceActivate = 1;
+        [Range(1, 10)] public float DistanceActivate = 1;
+
         // trigger - pressed
         // trigger - off    
         private Animator _anim;
@@ -27,8 +28,8 @@ namespace VRGame
         {
             _anim = GetComponent<Animator>();
             _collider = GetComponent<BoxCollider>();
-            _collider.center = new Vector3(0,0,DistanceActivate/2);
-            _collider.size = Vector3.one*DistanceActivate;
+            _collider.center = new Vector3(0, 0, DistanceActivate / 2);
+            _collider.size = Vector3.one * DistanceActivate;
             CloseButton(); //set default state;
         }
 
@@ -66,18 +67,22 @@ namespace VRGame
                 // ButtonPress.Invoke();
             }
         }
-    
+
 
         private void OnDrawGizmos()
         {
-            if (door!= null)
+            if (isDrawGizmo)
             {
-                Gizmos.color = Color.red;
-                Gizmos.DrawLine(transform.position+Vector3.up*1.2f, door.gameObject.transform.position+Vector3.up*2);
-            }
+                if (door != null)
+                {
+                    Gizmos.color = Color.red;
+                    Gizmos.DrawLine(transform.position + Vector3.up * 1.2f,
+                        door.gameObject.transform.position + Vector3.up * 2);
+                }
 
-            Gizmos.DrawWireCube(transform.position + Vector3.up*(DistanceActivate/2), Vector3.one * DistanceActivate);
-            
+                Gizmos.DrawWireCube(transform.position + Vector3.up * (DistanceActivate / 2),
+                    Vector3.one * DistanceActivate);
+            }
         }
     }
 }

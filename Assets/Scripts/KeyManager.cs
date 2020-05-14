@@ -5,31 +5,43 @@ using UnityEngine;
 
 namespace VRGame
 {
+    /// <summary>
+    /// Класс отвечает за сбор ключей и убирает преграду, для допуска к кнопке..
+    /// Необходимо указать сколько ключей надо собрать, чтобы убрать преграду
+    /// </summary>
     public class KeyManager : MonoBehaviour
     {
+        #region PublicVariables
+
+        [Header("Перетяни сюда все необходимые ключи, для разблокировке преграды")]
         public List<Key> Keys = new List<Key>();
 
-        /// <summary>
-        /// данная переменная отвечает за количество ключей, для активации кнопки
-        /// </summary>
-        private int countKey = 3;
+
+        [Header("данная переменная отвечает за количество ключей, которые разблокируют преграду")]
+        public int countKey;
+
+
+        [Header("Перетяни сюда преграду преграды")]
+        public GameObject pregrada;
+
+        #endregion
 
         private int curentKey = 0;
 
-        public GameObject pregrada;
-
         public static Action OnKeyManager = () => { };
+
         private void Awake()
         {
-            Debug.Log("Всего ключей в сцене - " + Keys.Count);
+            if (countKey == 0)
+            {
+                Debug.LogError("не назначена переменная - countKey");
+            }
 
             foreach (var key in Keys)
             {
                 key.OnKey += AddKey;
             }
-            
         }
-
 
         public void AddKey()
         {
@@ -50,9 +62,9 @@ namespace VRGame
             }
         }
 
-        private void OnDrawGizmos()
+        private void OnDrawGizmosSelected()
         {
-            if (Keys.Count != 0 && pregrada!=null)
+            if (Keys.Count != 0 && pregrada != null)
             {
                 foreach (var key in Keys)
                 {
