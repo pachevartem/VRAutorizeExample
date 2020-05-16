@@ -7,10 +7,21 @@ namespace VRGame
 {
     public class ForceField : MonoBehaviour
     {
-       public GameObject StopObj;
+        GameObject StopObj; //TODO: Запечатать в префабе
 
-        public bool isActive = true;
-        
+        bool isActive = true;
+
+        private void Awake()
+        {
+            StopObj = transform.GetChild(2).gameObject;
+        }
+
+
+        public void SetActive(bool isActive)
+        {
+            this.isActive = isActive;
+        }
+
         private void Update()
         {
             StopObj.SetActive(isActive);

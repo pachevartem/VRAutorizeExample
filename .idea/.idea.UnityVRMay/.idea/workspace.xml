@@ -2,38 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="260c7e46-683f-4a6c-b471-8b89baaec4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CubeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CubeController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Doors.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/Doors.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefabVariant_01 Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/KeyPrefabVariant_01 Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/pregrada.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs_complete/pregrada.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/ButtonsAndDoor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/ButtonsAndDoor/BSU_Doors.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/ButtonsAndDoor/BSU_Doors.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/ButtonsAndDoor/BSU_FloorButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/ButtonsAndDoor/BSU_FloorButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_KeyManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_KeyManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_KeyPrefab_Child_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_KeyPrefab_Child_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_KeyPrefab_parent.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_KeyPrefab_parent.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_Obstacle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/KeyAndObstacle/BSU_Obstacle.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleConstructor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExampleConstructor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SciFi Gun/Components/SciFiGun_Specular.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SciFi Gun/Components/SciFiGun_Specular.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/Skelet.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/Skelet.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/animation/UD_infantry_07_attack_A.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Toon_RTS/unded_Demo/animation/UD_infantry_07_attack_A.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/BarrierManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/BarrierManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/ButtonGate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/ButtonGate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/ForceField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/ForceField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/Gate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/Jammer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/Jammer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/JummerButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/JummerButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helper/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helper/Helper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +38,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Door.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/BarrierManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RequestController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/JummerButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helper/Helper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Key.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/StopMaterialPulse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Gate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Gun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/ForceField.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/ButtonGate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Jammer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,11 +63,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CubeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonFloor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KeyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AimJumper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Helper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StopMaterialPulse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lazer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ForceZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jumper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/Barrier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/ButtonGate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/Gate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/BarrierManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ForceField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jammer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LazerButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JummerButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/JummerButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/ForceField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/Jammer.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +135,8 @@
       <updated>1589277900200</updated>
       <workItem from="1589277901645" duration="1837000" />
       <workItem from="1589359777807" duration="8890000" />
-      <workItem from="1589443982169" duration="8883000" />
+      <workItem from="1589443982169" duration="12135000" />
+      <workItem from="1589611781925" duration="5622000" />
     </task>
     <servers />
   </component>

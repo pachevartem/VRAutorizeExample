@@ -16,12 +16,12 @@ namespace VRGame
     public class GameManager : MonoBehaviour
     {
         public static int HP = 100;
-        public Text _console;
-        public static Text Console;
+        // public Text _console;
+        // public static Text Console;
         
         private void Awake()
         {
-            Console = _console;
+            // Console = _console;
             HP = 100;
         }
 

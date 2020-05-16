@@ -12,12 +12,11 @@ namespace VRGame
         private void Awake()
         {
             _lr = GetComponent<LineRenderer>();
-            // aim = gameObject.transform.GetChild(0).transform;
         }
 
-        public Transform target;
 
-        private LazerButton _lastButton;
+        private JummerButton _lastButton;
+
         void Update()
         {
             Ray ray = new Ray(aim.position, aim.forward); //TODO: Починить
@@ -29,28 +28,19 @@ namespace VRGame
                 {
                     _lr.SetPosition(0, aim.position);
                     _lr.SetPosition(1, hit.point);
-                    _lastButton = hit.collider.GetComponent<LazerButton>();
-                    _lastButton.Fz.isActive = false;
+                    _lastButton = hit.collider.GetComponent<JummerButton>();
+                    _lastButton.Fz.SetActive(false);
                 }
                 else
                 {
                     _lr.SetPosition(0, aim.position);
                     _lr.SetPosition(1, aim.position);
-                    
-                    if (_lastButton!=null)
+
+                    if (_lastButton != null)
                     {
-                        _lastButton.GetComponent<LazerButton>().Fz.isActive = true;
+                        _lastButton.Fz.SetActive(true);
                     }
                 }
-            }
-
-            if (hit.collider != null)
-            {
-                GameManager.Console.text = hit.collider.name.ToString();
-            }
-            else
-            {
-                GameManager.Console.text = "no object";
             }
         }
 

@@ -8,10 +8,10 @@ namespace VRGame
 {
     [RequireComponent(typeof(BoxCollider))]
     [RequireComponent(typeof(Animator))]
-    public class ButtonFloor : MonoBehaviour
+    public class ButtonGate : MonoBehaviour
     {
         public bool isDrawGizmo;
-        [FormerlySerializedAs("door")] public Barrier barrier;
+        public Gate gate;
 
         // public UnityEvent ButtonPress;
 
@@ -40,13 +40,13 @@ namespace VRGame
             {
                 _anim.SetTrigger("off");
                 k = !k;
-                barrier.SwitchDoor();
+                gate.SwitchDoor();
             }
             else
             {
                 _anim.SetTrigger("pressed");
                 k = !k;
-                barrier.SwitchDoor();
+                gate.SwitchDoor();
             }
         }
 
@@ -74,11 +74,11 @@ namespace VRGame
         {
             if (isDrawGizmo)
             {
-                if (barrier != null)
+                if (gate != null)
                 {
                     Gizmos.color = Color.red;
                     Gizmos.DrawLine(transform.position + Vector3.up * 1.2f,
-                        barrier.gameObject.transform.position + Vector3.up * 2);
+                        gate.gameObject.transform.position + Vector3.up * 2);
                 }
 
                 Gizmos.DrawWireCube(transform.position + Vector3.up * (DistanceActivate / 2),

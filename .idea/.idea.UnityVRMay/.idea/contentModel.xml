@@ -172,16 +172,24 @@
         </e>
         <e p="RequestController.cs" t="Include" />
         <e p="Scripts" t="Include">
-          <e p="Bullet.cs" t="Include" />
-          <e p="ButtonFloor.cs" t="Include" />
-          <e p="CubeController.cs" t="Include" />
-          <e p="Door.cs" t="Include" />
-          <e p="Enemy.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="Gun.cs" t="Include" />
-          <e p="Key.cs" t="Include" />
-          <e p="KeyManager.cs" t="Include" />
-          <e p="MusicManager.cs" t="Include" />
+          <e p="Element" t="Include">
+            <e p="BarrierManager.cs" t="Include" />
+            <e p="Bullet.cs" t="Include" />
+            <e p="ButtonGate.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="ForceField.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="Gate.cs" t="Include" />
+            <e p="Gun.cs" t="Include" />
+            <e p="Jammer.cs" t="Include" />
+            <e p="JummerButton.cs" t="Include" />
+            <e p="Key.cs" t="Include" />
+            <e p="MusicManager.cs" t="Include" />
+            <e p="StopMaterialPulse.cs" t="Include" />
+          </e>
+          <e p="Helper" t="Include">
+            <e p="Helper.cs" t="Include" />
+          </e>
         </e>
         <e p="Standard Assets" t="Include">
           <e p="Cameras" t="Include">

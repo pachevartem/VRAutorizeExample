@@ -1,6 +1,6 @@
-﻿namespace VRGame.Helper
+﻿namespace VRGame
 {
-    public class Helper
+    public static class Helper
     {
         
     }

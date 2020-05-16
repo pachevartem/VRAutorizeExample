@@ -9,7 +9,7 @@ namespace VRGame
     /// Класс отвечает за сбор ключей и убирает преграду, для допуска к кнопке..
     /// Необходимо указать сколько ключей надо собрать, чтобы убрать преграду
     /// </summary>
-    public class KeyManager : MonoBehaviour
+    public class BarrierManager : MonoBehaviour
     {
         #region PublicVariables
 
