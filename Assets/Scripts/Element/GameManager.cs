@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace VRGame
 {
@@ -14,9 +16,12 @@ namespace VRGame
     public class GameManager : MonoBehaviour
     {
         public static int HP = 100;
-
+        public Text _console;
+        public static Text Console;
+        
         private void Awake()
         {
+            Console = _console;
             HP = 100;
         }
 

@@ -6,7 +6,7 @@ using UnityEngine;
 namespace VRGame
 {
     [RequireComponent(typeof(Animator))]
-    public class Door : MonoBehaviour
+    public class Barrier : MonoBehaviour
     {
         // trigger - isOpen
         // trigger -     

@@ -30,7 +30,7 @@ namespace VRGame
                 }
             }
 
-            KeyManager.OnKeyManager += PlayKetManager;
+            BarrierManager.OnKeyManager += PlayKetManager;
         }
 
         void PlayMoney()
@@ -58,7 +58,7 @@ namespace VRGame
                 }
             }
 
-            KeyManager.OnKeyManager -= PlayKetManager;
+            BarrierManager.OnKeyManager -= PlayKetManager;
         }
     }
 }

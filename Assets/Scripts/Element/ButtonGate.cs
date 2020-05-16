@@ -2,6 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace VRGame
 {
@@ -10,7 +11,7 @@ namespace VRGame
     public class ButtonFloor : MonoBehaviour
     {
         public bool isDrawGizmo;
-        public Door door;
+        [FormerlySerializedAs("door")] public Barrier barrier;
 
         // public UnityEvent ButtonPress;
 
@@ -39,13 +40,13 @@ namespace VRGame
             {
                 _anim.SetTrigger("off");
                 k = !k;
-                door.SwitchDoor();
+                barrier.SwitchDoor();
             }
             else
             {
                 _anim.SetTrigger("pressed");
                 k = !k;
-                door.SwitchDoor();
+                barrier.SwitchDoor();
             }
         }
 
@@ -73,11 +74,11 @@ namespace VRGame
         {
             if (isDrawGizmo)
             {
-                if (door != null)
+                if (barrier != null)
                 {
                     Gizmos.color = Color.red;
                     Gizmos.DrawLine(transform.position + Vector3.up * 1.2f,
-                        door.gameObject.transform.position + Vector3.up * 2);
+                        barrier.gameObject.transform.position + Vector3.up * 2);
                 }
 
                 Gizmos.DrawWireCube(transform.position + Vector3.up * (DistanceActivate / 2),

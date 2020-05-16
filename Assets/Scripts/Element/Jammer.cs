@@ -1,0 +1,63 @@
+﻿using System;
+using UnityEngine;
+
+namespace VRGame
+{
+    [RequireComponent(typeof(LineRenderer))]
+    public class Jammer : MonoBehaviour
+    {
+        private LineRenderer _lr;
+        public Transform aim;
+
+        private void Awake()
+        {
+            _lr = GetComponent<LineRenderer>();
+            // aim = gameObject.transform.GetChild(0).transform;
+        }
+
+        public Transform target;
+
+        private LazerButton _lastButton;
+        void Update()
+        {
+            Ray ray = new Ray(aim.position, aim.forward); //TODO: Починить
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, 100))
+            {
+                if (hit.collider.CompareTag("TagretJ"))
+                {
+                    _lr.SetPosition(0, aim.position);
+                    _lr.SetPosition(1, hit.point);
+                    _lastButton = hit.collider.GetComponent<LazerButton>();
+                    _lastButton.Fz.isActive = false;
+                }
+                else
+                {
+                    _lr.SetPosition(0, aim.position);
+                    _lr.SetPosition(1, aim.position);
+                    
+                    if (_lastButton!=null)
+                    {
+                        _lastButton.GetComponent<LazerButton>().Fz.isActive = true;
+                    }
+                }
+            }
+
+            if (hit.collider != null)
+            {
+                GameManager.Console.text = hit.collider.name.ToString();
+            }
+            else
+            {
+                GameManager.Console.text = "no object";
+            }
+        }
+
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.DrawRay(aim.position, aim.forward * 100);
+        }
+    }
+}
