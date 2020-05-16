@@ -42,6 +42,16 @@ namespace VRGame
                     }
                 }
             }
+            else
+            {
+                _lr.SetPosition(0, aim.position);
+                _lr.SetPosition(1, aim.position);
+               
+                if (_lastButton != null)
+                {
+                    _lastButton.Fz.SetActive(true);
+                }
+            }
         }
 
 
