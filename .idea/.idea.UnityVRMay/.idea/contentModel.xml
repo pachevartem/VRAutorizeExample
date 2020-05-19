@@ -186,9 +186,15 @@
             <e p="Key.cs" t="Include" />
             <e p="MusicManager.cs" t="Include" />
             <e p="StopMaterialPulse.cs" t="Include" />
+            <e p="VR_ButtonGateV2.cs" t="Include" />
+            <e p="VRButtonGate.cs" t="Include" />
           </e>
           <e p="Helper" t="Include">
             <e p="Helper.cs" t="Include" />
+          </e>
+          <e p="MyReactor.cs" t="Include" />
+          <e p="VR_int" t="Include">
+            <e p="Vr_fire.cs" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">

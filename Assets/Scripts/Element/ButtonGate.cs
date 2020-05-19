@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 
 namespace VRGame
 {
-    [RequireComponent(typeof(BoxCollider))]
+    // [RequireComponent(typeof(BoxCollider))]
     [RequireComponent(typeof(Animator))]
     public class ButtonGate : MonoBehaviour
     {
