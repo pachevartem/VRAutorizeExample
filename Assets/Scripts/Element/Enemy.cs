@@ -14,6 +14,9 @@ namespace VRGame
         private NavMeshAgent _agent;
         private Animator _anim;
 
+        public LayerMask playerLayer;
+        
+        
         [Header("Укажи имя главного персонажа")]
         public string namePlayer;
 
@@ -26,8 +29,8 @@ namespace VRGame
 
         private void Update() // TODO: Change
         {
-            var AttackZone = Physics.OverlapSphere(transform.position, RadiusAttack, 1 << 8);
-            var AgroZone = Physics.OverlapSphere(transform.position, RadiusAgro, 1 << 8);
+            var AttackZone = Physics.OverlapSphere(transform.position, RadiusAttack, playerLayer); // 1<<8
+            var AgroZone = Physics.OverlapSphere(transform.position, RadiusAgro, playerLayer);
 
             if (AgroZone.Length > 0) // TODO: Change
             {

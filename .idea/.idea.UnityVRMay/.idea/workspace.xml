@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="260c7e46-683f-4a6c-b471-8b89baaec4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Element/VR_ButtonGateV2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Element/VR_ButtonGateV2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VR_int/Vr_fire.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VR_int/Vr_fire.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityVRMay/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/Jammer/ForceField.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BSU_ConstructorLevel/Jammer/ForceField.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestSborka.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestSborka.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/ButtonGate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/ButtonGate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/Gun.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTK/Examples/ExampleResources/SceneResources/[005 - Interactions] InteractableObjects/Scripts/ControllableReactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTK/Examples/ExampleResources/SceneResources/[005 - Interactions] InteractableObjects/Scripts/ControllableReactor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTK/Examples/ExampleResources/SceneResources/[007 - Interactions] InteractionHelpers/Images/vrtk-logo-64x64-pink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTK/Examples/ExampleResources/SceneResources/[007 - Interactions] InteractionHelpers/Images/vrtk-logo-64x64-pink.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTK/Examples/[005 - Interactions] InteractableObjects.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTK/Examples/[005 - Interactions] InteractableObjects.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTK/Internal/Textures/Crosshair.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTK/Internal/Textures/Crosshair.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTK/LegacyExampleFiles/ExampleResources/Images/Unity.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTK/LegacyExampleFiles/ExampleResources/Images/Unity.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTK/[VRTK_SDKManager].prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTK/[VRTK_SDKManager].prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Vr_03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Vr_03.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Element/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Element/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/Jammer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Element/VR_ButtonGateV2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,6 +82,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/VR_int/Vr_fire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Element/Gun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Element/VR_ButtonGateV2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Element/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -146,7 +134,8 @@
       <workItem from="1589359777807" duration="8890000" />
       <workItem from="1589443982169" duration="12135000" />
       <workItem from="1589611781925" duration="5622000" />
-      <workItem from="1589864341842" duration="2714000" />
+      <workItem from="1589864341842" duration="4244000" />
+      <workItem from="1589948312917" duration="680000" />
     </task>
     <servers />
   </component>
